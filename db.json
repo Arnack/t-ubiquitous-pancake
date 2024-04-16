@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "email": "customer@customer.customer",
+      "password": "$2a$10$MnXXaMbypQ66cy877XWRk.Xclq5fHOvM.x.uMQYyI6TzWc9vNJqYq",
+      "role": "customer",
+      "name": "Customer Doe",
+      "id": 1
+    },
+    {
+      "email": "admin@admin.admin",
+      "password": "$2a$10$N/WPTnizWVJPC.Qa7D/RTOc9LLw35TYo/ltElWTMym3/z0bPN3EcW",
+      "role": "admin",
+      "name": "Admin Doe",
+      "id": 2
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "Good 1",
+      "SKU": "SKU1",
+      "price": 100,
+      "description": "Description 1",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Good 2",
+      "SKU": "SKU2",
+      "price": 200,
+      "description": "Description 2",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Good 3",
+      "SKU": "SKU3",
+      "price": 300,
+      "description": "Description 3",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Good 4",
+      "SKU": "SKU4",
+      "price": 400,
+      "description": "Description 4",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Good 5",
+      "SKU": "SKU5",
+      "price": 500,
+      "description": "Description 5",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "goods": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "goods": [
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
