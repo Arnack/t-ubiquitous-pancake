@@ -1,0 +1,39 @@
+{
+  "en": {
+    "hello": "Hello",
+    "lang-name": "English",
+    "change-language": "Change Language",
+    "tabs": {
+      "home": "Home",
+      "orderHistory": "Orders",
+      "basket": "Basket",
+      "settings": "Settings"
+    },
+    "start": {
+      "title": "Welcome to DigiShop",
+      "subtitle": "Please log in as a Customer or as an Administrator to continue",
+      "buttons": {
+        "customer-sign-in": "Log in as a Customer",
+        "admin-sign-in": "Log in as a Administrator"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Customize your experience",
+      "general": "General",
+      "language": "Language",
+      "dark-mode": "Dark Mode",
+      "logout": "Logout"
+    },
+    "logout": {
+      "title": "Logout",
+      "subtitle": "Logout of your account",
+      "content": "This is the logout content",
+      "buttons": {
+        "logout": "Logout",
+        "cancel": "Cancel"
+      }
+    },
+    "language": { "title": "Language" }
+  }
+}

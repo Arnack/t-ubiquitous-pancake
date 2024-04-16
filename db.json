@@ -19,8 +19,8 @@
     {
       "id": 1,
       "name": "Good 1",
-      "SKU": "SKU1",
-      "price": 100,
+      "SKU": "SKU11",
+      "price": 1000,
       "description": "Description 1",
       "image": "https://via.placeholder.com/150"
     },
